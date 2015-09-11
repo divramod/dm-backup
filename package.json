@@ -1,0 +1,42 @@
+{
+  "private": false,
+  "name": "dm-backup",
+  "shortcut": "dmb",
+  "version": "0.0.0",
+  "description": "backup helper",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --harmony --require co-mocha --watch --reporter landing",
+    "start": "node --harmony ./bin/dm-backup"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divramod/dm-backup.git"
+  },
+  "keywords": [
+    "npm",
+    "template"
+  ],
+  "author": "AUTHOR",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/divramod/dm-backup/issues"
+  },
+  "homepage": "https://github.com/divramod/dm-backup",
+  "dependencies": {
+    "chai": "^2.1.0",
+    "co": "^4.4.0",
+    "co-mocha": "^1.1.0",
+    "colors": "^1.1.2",
+    "dm-npm": "^0.1.14",
+    "dm-shell": "^0.1.4",
+    "mocha": "^2.1.0",
+    "shelljs": "^0.5.3"
+  },
+  "bin": {
+    "dmb": "./bin/dm-backup",
+    "dm-backup": "./bin/dm-backup",
+    "gdmb": "./bin/gdm-backup",
+    "dmbg": "./bin/gdm-backup"
+  }
+}
